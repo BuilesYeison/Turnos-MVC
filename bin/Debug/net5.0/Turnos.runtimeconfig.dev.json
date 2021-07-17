@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\HADES\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HADES\\.nuget\\packages"
+    ]
+  }
+}
