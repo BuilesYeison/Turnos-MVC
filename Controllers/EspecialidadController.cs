@@ -9,7 +9,8 @@ namespace Turnos.Controllers
     {
         private readonly TurnosContext _context;//solo lectura conexto del controlador
         ///<summary>
-        ///Constructor de la clase
+        ///Constructor de la clase que recibe el contexto de la db para conectarse a la tabla Especialidad 
+        ///<param name="_context">Es el contexto que recibe este controlador</param>
         ///</summary>
         public EspecialidadController(TurnosContext context){
             _context = context; //cuando instaciamos esté controlador enviamos un context y lo inicializamos en _context
