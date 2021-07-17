@@ -1,3 +1,4 @@
+@model IEnumerable<Turnos.Models.Especialidad> //referenciamos el modelo de la tabla que haremos uso
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,18 @@
 <body>
     <table>
         <thead>
-            <tr><th>Descripción</th></tr>
+            <tr><th>@Html.DisplayNameFor(model => model.descripción)</th></tr>@*DisplayNameFor obtiene el nombre de la columna*@
         </thead>
         <tbody>
-            @*Aquí colocamos comentarios*@
-            <tr><td>Traumatologo</td></tr>
-            <tr><td>Cardiologo</td></tr>
+            @*Recorremos el modelo referenciado en la primera linea de codigo para mostrar su info en está tabla*@
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.descripción)@*DisplayFor es para obtener el dato de la columna*@
+                    </td>
+                </tr>
+            }            
         </tbody>
     </table>
 </body>
