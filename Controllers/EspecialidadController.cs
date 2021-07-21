@@ -74,5 +74,22 @@ namespace Turnos.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        ///<summary>
+        ///Metodo que crea una nueva especialidad en la tabla de la db
+        ///</summary>
+        public IActionResult Create(){
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("IdEspecialidad,descripción")] Especialidad especialidad){
+            if(ModelState.IsValid){
+                _context.Add(especialidad);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View();
+        }
     }
 }
