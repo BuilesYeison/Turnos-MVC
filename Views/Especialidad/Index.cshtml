@@ -13,6 +13,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.descripción)@*DisplayFor es para obtener el dato de la columna*@
             </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdEspecialidad">Edit</a>@*Creamos una columna que permite editar el registro*@
+            </td>
         </tr>
         }
     </tbody>
