@@ -16,6 +16,9 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdEspecialidad">Edit</a>@*Creamos una columna que permite editar el registro*@
             </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.IdEspecialidad">Delete</a>@*Creamos una columna que permite eliminar el registro*@
+            </td>
         </tr>
         }
     </tbody>

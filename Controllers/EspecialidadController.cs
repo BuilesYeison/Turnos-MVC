@@ -48,5 +48,29 @@ namespace Turnos.Controllers
             }
             return View(); 
         }
+        ///<summary>
+        ///Se recibe el id del registro a borrar en la tabla Especialidad
+        ///</summary>
+        public IActionResult Delete(int? id){
+            if(id == null){
+                return NotFound();
+            }
+            var especialidad = _context.Especialidad.FirstOrDefault(e => e.IdEspecialidad == id); //obtiene la primera coincidencia en la db que sea igual al id enviado. Si no ha encontrado registros devuelve un null
+            if(especialidad == null){
+                return NotFound();
+            }
+            return View(especialidad);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id){
+            var especialidad = _context.Especialidad.Find(id);
+            if(especialidad == null){
+                return NotFound();
+            }
+            _context.Especialidad.Remove(especialidad); //con LINQ eliminamos el registro de la base de datos
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
