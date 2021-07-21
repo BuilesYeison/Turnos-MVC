@@ -1,5 +1,7 @@
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Turnos.Models;
 
 namespace Turnos.Controllers
@@ -19,15 +21,15 @@ namespace Turnos.Controllers
         ///<summary>
         ///mostrar el resultado que obtiene este metodo en la interfaz del usuario Index
         ///</summary>
-        public IActionResult Index(){
-            return View(_context.Especialidad.ToList()); //le pasamos a la vista una lista de los datos de la tabla Especialidad
+        public async Task<IActionResult> Index(){
+            return View(await _context.Especialidad.ToListAsync()); //le pasamos a la vista una lista de los datos de la tabla Especialidad
         }
 
-        public IActionResult Edit(int? id){//int? permite valores nulos
+        public async Task<IActionResult> Edit(int? id){//int? permite valores nulos
             if(id == null){
                 return NotFound();
             }
-            var especialidad = _context.Especialidad.Find(id); //objeto que permite obtener este dato de la base de datos según el id del registro que se paso 
+            var especialidad = await _context.Especialidad.FindAsync(id); //objeto que permite obtener este dato de la base de datos según el id del registro que se paso 
             if(especialidad == null){//no se encontró en la db el registro
                 return NotFound();
             }
@@ -37,13 +39,13 @@ namespace Turnos.Controllers
         ///Se recibe la descripción y el id del registro en la base de datos
         ///</summary>
         [HttpPost]//Esto diferencia el metodo Edit que graba, del Edit de vista
-        public IActionResult Edit(int id, [Bind("IdEspecialidad, descripción")] Especialidad especialidad){
+        public async Task<IActionResult> Edit(int id, [Bind("IdEspecialidad, descripción")] Especialidad especialidad){
             if(id != especialidad.IdEspecialidad){
                 return NotFound();
             }
             if(ModelState.IsValid){
                 _context.Update(especialidad);//actualizamos datos nuevos
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index)); //retornamos a la vista principal
             }
             return View(); 
@@ -51,11 +53,11 @@ namespace Turnos.Controllers
         ///<summary>
         ///Se recibe el id del registro a borrar en la tabla Especialidad
         ///</summary>
-        public IActionResult Delete(int? id){
+        public async Task<IActionResult> Delete(int? id){
             if(id == null){
                 return NotFound();
             }
-            var especialidad = _context.Especialidad.FirstOrDefault(e => e.IdEspecialidad == id); //obtiene la primera coincidencia en la db que sea igual al id enviado. Si no ha encontrado registros devuelve un null
+            var especialidad = await _context.Especialidad.FirstOrDefaultAsync(e => e.IdEspecialidad == id); //obtiene la primera coincidencia en la db que sea igual al id enviado. Si no ha encontrado registros devuelve un null
             if(especialidad == null){
                 return NotFound();
             }
@@ -63,13 +65,13 @@ namespace Turnos.Controllers
         }
 
         [HttpPost]
-        public IActionResult Delete(int id){
-            var especialidad = _context.Especialidad.Find(id);
+        public async Task<IActionResult> Delete(int id){
+            var especialidad = await _context.Especialidad.FindAsync(id);
             if(especialidad == null){
                 return NotFound();
             }
             _context.Especialidad.Remove(especialidad); //con LINQ eliminamos el registro de la base de datos
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }
