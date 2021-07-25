@@ -100,9 +100,9 @@ namespace Turnos.Controllers{
         ///<summary>
         ///Metodo para eliminar el registro correspondiente
         ///</summary>
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]//agregamos un alias para llamar este metodo como Delete y no DeleteConfirmed
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(int id){
+        public async Task<IActionResult> DeleteConfirmed(int id){
             var paciente = _context.Paciente.FindAsync(id);
             if(paciente == null){
                 return NotFound();

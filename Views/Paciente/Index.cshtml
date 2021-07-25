@@ -1,0 +1,44 @@
+@model IEnumerable<Turnos.Models.Paciente>
+<p><a asp-action="Create">Nuevo Paciente</a></p>
+<table>
+    <thead>@*Encabezado con el nombre de las columnas*@
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.Apellido)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.Telefono)</th>
+            <th>@Html.DisplayNameFor(model => model.Direccion)</th>
+        </tr>
+    </thead>
+    <tBody>
+        @foreach (var item in Model)@*Recorremos los registros de la base de datos y creamos una columna por cada registro*@
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.idPaciente">Eliminar</a>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.idPaciente">Editar</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.idPaciente">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tBody>
+</table>
