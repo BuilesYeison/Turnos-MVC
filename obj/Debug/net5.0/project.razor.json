@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj",
+  "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,57 +15619,57 @@
   "RootNamespace": "Turnos",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Especialidad\\Edit.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Edit.cshtml",
       "TargetPath": "Views\\Especialidad\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Especialidad\\Index.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Index.cshtml",
       "TargetPath": "Views\\Especialidad\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Especialidad\\Create.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Create.cshtml",
       "TargetPath": "Views\\Especialidad\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Especialidad\\Delete.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Delete.cshtml",
       "TargetPath": "Views\\Especialidad\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }

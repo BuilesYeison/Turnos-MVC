@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "desYvvd9CV0hrdPMxYkriU+/LMa5j5JaDSTNgVtdMmP8TVq6lVshEluUIGzqnYyV2wBvo6x5d4jf20pGSCpckg==",
+  "dgSpecHash": "JcFYVa1kEqfcu5zUMEAvOSDUXTV17JGdyrpLzaFjpyaRDrrtb5an4YH6CtfRUTgqNspLS/UzDS/i2OrFiXpYQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj",
+  "projectFilePath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HADES\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HADES\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

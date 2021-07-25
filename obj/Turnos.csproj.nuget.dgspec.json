@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj": {}
+    "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj": {
+    "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj",
+        "projectUniqueName": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj",
         "projectName": "Turnos",
-        "projectPath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\Turnos.csproj",
+        "projectPath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Turnos.csproj",
         "packagesPath": "C:\\Users\\HADES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\proyectos\\Turnos\\obj\\",
+        "outputPath": "C:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HADES\\AppData\\Roaming\\NuGet\\NuGet.Config",
