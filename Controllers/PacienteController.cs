@@ -82,5 +82,34 @@ namespace Turnos.Controllers{
             }
             return View();
         }
+
+        ///<summary>
+        ///Metodo para obtener y verificar el paciente a borrar 
+        ///</summary>
+        public async Task<IActionResult> Delete(int? id){
+            if(id == null){
+                return NotFound();
+            }
+            var paciente = _context.Paciente.FirstOrDefaultAsync(p => p.idPaciente == id);
+            if(paciente == null){
+                return NotFound();
+            }
+            return View(paciente); 
+        }
+
+        ///<summary>
+        ///Metodo para eliminar el registro correspondiente
+        ///</summary>
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id){
+            var paciente = _context.Paciente.FindAsync(id);
+            if(paciente == null){
+                return NotFound();
+            }
+            _context.Remove(paciente);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
