@@ -42,7 +42,8 @@ namespace Turnos.Controllers{
         ///<param name="paciente">objeto con la información del paciente</param>
         ///</summary>
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("idPaciente, Nombre, Apellido, Direccion, Email, Telefono")] Paciente paciente){
+        [ValidateAntiForgeryToken]//valida que nuestro metodo ha sido ejecutado a traves de un formulario y no durante la url del navegador
+        public async Task<IActionResult> Create([Bind("idPaciente,Nombre,Apellido,Direccion,Email,Telefono")] Paciente paciente){
             if(ModelState.IsValid){
                 _context.Add(paciente);
                 await _context.SaveChangesAsync();
