@@ -15654,8 +15654,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Paciente\\Create.cshtml",
+      "TargetPath": "Views\\Paciente\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Delete.cshtml",
       "TargetPath": "Views\\Especialidad\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Paciente\\Details.cshtml",
+      "TargetPath": "Views\\Paciente\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
