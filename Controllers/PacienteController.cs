@@ -90,7 +90,7 @@ namespace Turnos.Controllers{
             if(id == null){
                 return NotFound();
             }
-            var paciente = _context.Paciente.FirstOrDefaultAsync(p => p.idPaciente == id);
+            var paciente = await _context.Paciente.FirstOrDefaultAsync(p => p.idPaciente == id);
             if(paciente == null){
                 return NotFound();
             }
