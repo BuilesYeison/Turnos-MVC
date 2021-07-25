@@ -51,5 +51,36 @@ namespace Turnos.Controllers{
             }
             return View();
         }
+
+        ///<summary>
+        ///Metodo que consulta que exista el paciente que se trata de editar
+        ///</summary>
+        public async Task<IActionResult> Edit(int? id){
+            if(id == null){
+                return NotFound();
+            }
+            var paciente = await _context.Paciente.FindAsync(id);
+            if(paciente == null){
+                return NotFound();
+            }
+            return View(paciente);
+        }
+
+        ///<summary>
+        ///Metodo que actualiza el paciente en la base de datos
+        ///</summary>
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("idPaciente,Nombre,Apellido,Direccion,Email,Telefono")]Paciente paciente){
+            if(id != paciente.idPaciente){
+                return NotFound();
+            }
+            if(ModelState.IsValid){
+                _context.Update(paciente);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View();
+        }
     }
 }
