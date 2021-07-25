@@ -15619,6 +15619,11 @@
   "RootNamespace": "Turnos",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Paciente\\Delete.cshtml",
+      "TargetPath": "Views\\Paciente\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HADES\\Dropbox\\Mi PC (DESKTOP-PQKCSHT)\\Documents\\Desarrollo de software\\NET\\.NET Core C# EF y MVC Crea una WebApp completa desde cero\\Proyectos\\Turnos\\Views\\Especialidad\\Edit.cshtml",
       "TargetPath": "Views\\Especialidad\\Edit.cshtml",
       "FileKind": "mvc"

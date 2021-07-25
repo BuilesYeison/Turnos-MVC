@@ -78,3 +78,4 @@ C:\Users\HADES\Dropbox\Mi PC (DESKTOP-PQKCSHT)\Documents\Desarrollo de software\
 C:\Users\HADES\Dropbox\Mi PC (DESKTOP-PQKCSHT)\Documents\Desarrollo de software\NET\.NET Core C# EF y MVC Crea una WebApp completa desde cero\Proyectos\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Create.cshtml.g.cs
 C:\Users\HADES\Dropbox\Mi PC (DESKTOP-PQKCSHT)\Documents\Desarrollo de software\NET\.NET Core C# EF y MVC Crea una WebApp completa desde cero\Proyectos\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Details.cshtml.g.cs
 C:\Users\HADES\Dropbox\Mi PC (DESKTOP-PQKCSHT)\Documents\Desarrollo de software\NET\.NET Core C# EF y MVC Crea una WebApp completa desde cero\Proyectos\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Edit.cshtml.g.cs
+C:\Users\HADES\Dropbox\Mi PC (DESKTOP-PQKCSHT)\Documents\Desarrollo de software\NET\.NET Core C# EF y MVC Crea una WebApp completa desde cero\Proyectos\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Delete.cshtml.g.cs
