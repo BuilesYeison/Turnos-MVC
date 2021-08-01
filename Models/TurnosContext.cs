@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Turnos.Models;
 
 namespace Turnos.Models
 {
@@ -24,6 +25,11 @@ namespace Turnos.Models
         ///<param name="Paciente">DbSet es un tabla o entidad</param>
         ///</summary>
         public DbSet<Paciente> Paciente{get;set;}
+        
+        ///<summary>
+        ///Funcion que permite especificar la creación de la tabla según el modelo en el codigo. Permite especificar las propiedades de las columnas
+        ///</summary>
+        public DbSet<Turnos.Models.Medico> Medico { get; set; }
 
         ///<summary>
         ///Funcion que permite especificar la creación de la tabla según el modelo en el codigo. Permite especificar las propiedades de las columnas
